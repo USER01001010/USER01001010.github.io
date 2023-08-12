@@ -1,62 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">    
-    <link rel="stylesheet" href="styles.css">
-    <title>MARIOTEST</title>
-  </head>
-  <body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1">
+        <title>Coffee Playground</title>
+        
+        <!---Custom css link --->
+        <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <header>
-      <h1>MarioClub</h1>
-    </header>
+        <!--icons link-->
+        <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-    <section class="banner">
-      <img src="img/CP1.jpg" alt="marioclub welcom banner">
-      <div class="welcome">
-        <h2>Welcome to <br><span>Marioclub</span></h2>
-      </div>    
-    </section>
+        <!---remixicons link--->
+        <link href= "https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!---google fonts link--->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=Swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">COFFEE-BREAK</a>
 
-    <nav class="main-nav">
-      <ul>
-        <li><a href="/join.html" class="join">Join the club</a></li>
-        <li><a href="/news.html" >Latest News</a></li>
-        <li><a href="/games.html" >Games</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-      </ul>
-    </nav>
+            <ul class="navlist">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Clans</a></li>
+                <li><a href="#">Cafe</a></li>
+                <li><a href="#">Troops</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
 
-    <main>
-      <article>
-        <h2> Its me, Mario!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Repudiandae possimus sapiente, ducimus asperiores error eum 
-          ipsam quasi repellendus iste earum laboriosam nesciunt officiis 
-          atque rerum quos incidunt aspernatur velit voluptates. 
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Praesentium labore perferendis minus incidunt doloribus, 
-          eligendi repudiandae earum dignissimos est neque deserunt consequatur. 
-          Repudiandae autem maxime magnam eveniet! Atque, suscipit amet.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Praesentium labore perferendis minus incidunt doloribus, 
-          eligendi repudiandae earum dignissimos est neque deserunt consequatur. 
-          Repudiandae autem maxime magnam eveniet! Atque, suscipit amet.</p>
-      </article>
-      <ul class="images">
-        <li><img src="img/thumb-1.png" alt="mario thumb 1"></li>
-        <li><img src="img/thumb-2.png" alt="mario thumb 2"></li>
-      </ul>
-    </main>
-    <section class="join">
-      <h2>Join Today!</h2>
-      <p>Lorem iipsum</p>
-      <form>
-        <input type="email" name="email" placeholder="Type email & hit enter" required>
-      </form>
-    </section>
-    <footer>
-      <p class="copyright">Copyright 2019 Mario World</p>
-    </footer>
-  </body>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h5>#1 Trending</h5>
+                <h4>Lead Supercell</h4>
+                <h1>COFFEE BEAN</h1>
+                <p>Welcome to Coffee Break Playground - the ultimate destination for coffee enthusiasts. <br> Join us on this exciting coffee adventure!!!</p>    
+            <a href="#">Compare</a> 
+            <a href="#" class="ctaa"><i class="ri-play-fill"></i>Watch Gameplay</a>              
+            </div>
+
+            <div class="hero-img">
+                <img src="img/Avatar.png">
+            </div>
+        </section>
+
+        <div class="icons">
+            <a href="#"><i class="ri-instagram-line"></i></a> 
+            <a href="#"><i class="ri-youtube-line"></i></a> 
+            <a href="#"><i class="ri-dribbble-line"></i></a> 
+        </div>
+        <div class="scroll-down">
+            <a href="#"><i class="ri-arrow-down-s-fill"></i></a> 
+        </div>
+
+         <!--scrollreveal effect-->
+         <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!---custom js link--->
+        <script src="script.js"></script>
+    </body>
 </html>
